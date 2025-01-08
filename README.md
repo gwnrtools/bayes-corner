@@ -1,4 +1,4 @@
-# Template Repository
+# PyCorner  
 
-Library for ...
+Library for creating publication quality corner plots visualizing multidimensional probability distributions.
 
