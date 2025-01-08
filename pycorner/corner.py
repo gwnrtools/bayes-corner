@@ -31,8 +31,8 @@ import matplotlib
 from matplotlib import cm
 from scipy.stats import gaussian_kde
 
-from corner import make_filled_contour_plot, ParamLatexLabels
-from corner import MultiDDistribution
+from pycorner import make_filled_contour_plot, ParamLatexLabels
+from pycorner import MultiDDistribution
 
 
 logging.getLogger().setLevel(logging.INFO)

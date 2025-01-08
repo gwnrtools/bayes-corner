@@ -9,7 +9,7 @@ from os import environ, path
 import subprocess
 from pathlib import Path
 
-NAME = 'bayes-corner'
+NAME = 'pycorner'
 VERSION = 'v0.0.0'
 
 

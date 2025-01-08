@@ -21,7 +21,7 @@
 # =============================================================================
 #
 import logging
-from corner import ParamLatexLabels
+from pycorner import ParamLatexLabels
 from scipy.stats.kde import gaussian_kde
 from scipy.interpolate import UnivariateSpline
 
