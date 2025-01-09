@@ -56,18 +56,20 @@ def set_matplotlib_params():
     )
     return linestyles, linecolors
 
-def insert_min_max_into_array(arr, low, high):                                  
-    """                                                                         
-    Assume an ordered array is passed. Insert min and max and force that        
-    """                                                                         
-    if low > arr.max() or high < arr.min():                                     
-        return np.array([low, high])                                            
-    new_arr = arr                                                               
-    mask = new_arr > low                                                        
-    new_arr = np.append(low, new_arr[mask])                                     
-    mask = new_arr < high                                                       
-    new_arr = np.append(new_arr[mask], high)                                    
-    return new_arr 
+
+def insert_min_max_into_array(arr, low, high):
+    """
+    Assume an ordered array is passed. Insert min and max and force that
+    """
+    if low > arr.max() or high < arr.min():
+        return np.array([low, high])
+    new_arr = arr
+    mask = new_arr > low
+    new_arr = np.append(low, new_arr[mask])
+    mask = new_arr < high
+    new_arr = np.append(new_arr[mask], high)
+    return new_arr
+
 
 def make_filled_contour_plot(
     x,
