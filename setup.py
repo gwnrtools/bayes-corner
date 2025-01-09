@@ -10,7 +10,7 @@ import subprocess
 from pathlib import Path
 
 NAME = 'pycorner'
-VERSION = 'v0.0.0'
+VERSION = 'v1.0.0'
 
 
 def write_version_file(version):

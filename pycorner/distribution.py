@@ -656,9 +656,9 @@ class MultiDDistribution:
         return self.norm
 
     def plot_twod_slice(self, *args):
-        raise RuntimeError("This function has been removed. Use gwnr.graph.CornerPlot.")
+        raise RuntimeError("This function has been removed. Use pycorner.CornerPlot.")
 
     def corner_plot(self, *args):
-        raise RuntimeError("This function has been removed. Use gwnr.graph.CornerPlot.")
+        raise RuntimeError("This function has been removed. Use pycorner.CornerPlot.")
 
     # }}}
